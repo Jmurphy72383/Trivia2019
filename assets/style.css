@@ -25,7 +25,7 @@ h1 {
     padding: 25px;
     font-size: 30px;
     border: none;
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(0, 0, 0, 0);
     color: orange;
 }
 
@@ -87,4 +87,35 @@ span {
 
 button:focus {
     outline:0;
+}
+
+
+/* MEDIA QUERRIES */
+
+@media (max-width: 550px) {
+    .start_div {
+        text-align: center;
+        position: absolute;
+        top: 200px;
+    }
+
+    .h1_main {
+        font-size: 45px;
+    }
+
+    #start_btn {
+        font-size: 25px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .choice_btn:hover {
+        transform: scale(1.2);
+    }
+
+    .score_h2 {
+        font-size: 35px;
+    }
 }
